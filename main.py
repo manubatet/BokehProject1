@@ -21,7 +21,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # get the dataset
-    Table = pd.read_excel('data/AB_NYC_2019_excel.xlsx')
+    Table = pd.read_excel('AB_NYC_2019_excel.xlsx')
     Table = Table.dropna()
     cols = Table.columns
     row = np.sort(np.unique(Table['room_type'].tolist()))
@@ -55,7 +55,7 @@ def tracer(x_name, y_name, row_i):
     outfile.close()
 
     # load the data
-    Table = pd.read_excel('data/AB_NYC_2019_excel.xlsx')
+    Table = pd.read_excel('AB_NYC_2019_excel.xlsx')
     Table = Table.dropna()
     rows = np.sort(np.unique(Table['room_type'].tolist()))
     TOOLS = "pan,wheel_zoom,box_zoom,reset,save,box_select,lasso_select,help"
