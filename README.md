@@ -1,5 +1,5 @@
 # BokehProject1
-A project about interactive graphics and html in python with bokeh and flask. I have created this project in a hackaton for another purpose (in a axial compresor, study the different correlations in each row for the deviation and losses) but I do not have the difussion rights of that project. That's why I uploaded it applied to another dataset, the Airbnb in NYC.
+A project about interactive graphics and html in python with bokeh and flask. I created this project in a hackaton for another purpose (in a axial compresor, study the different correlations in each row for the deviation and losses) but I do not have the difussion rights for that project. That's why I uploaded it applied to another dataset, the Airbnb in NYC.
 
 I found this tool useful when you have to compare numerical results in different scenarios (with a relationship between them) and you have to look for a correlation with its behaviour. It provides an interative tool to check very quickly different plots.
 
