@@ -13,8 +13,18 @@ Given an excel:
 # Example
 The right menu selects the filter, in this case it is applied on the appartment type.
 
+![](./Examples/Image1.png)
+
 Then, the x and y parameters to plot can be chose
+
+![](./Examples/Image2.png)
 
 In this case, the longitude and latitude have been represented.
 
+![](./Examples/Image3.png)
+
 Finally, several plots have been plotted. Thanks to the tools implemented in bokeh we can check what happen with the points that are not in the city centre for example. So if we select them from the longitude and latitude plot, they will be highlighted in the other plots. So we can see that there is no difference between the appartments that are far from the city centre. Their price is around 150$ but they are as rented as the others.
+
+![](./Examples/Image4.png)
+
+If you want to use the last plots, just download templates/example1.html and open it with a web browser.
